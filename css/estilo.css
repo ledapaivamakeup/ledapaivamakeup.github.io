@@ -1,0 +1,61 @@
+.negrito{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #DCDCDC; /*dark light */
+    color: #000;
+}
+.bg-4 { 
+    background-color: #f0ad4e; /*dark light */
+    color: #000;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 250px;
+    margin: auto;
+}
+
+
+/*footer*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  margin: 0 auto;
+/*  max-width: 680px;
+  padding: 0 15px;*/
+}
+.container .text-muted {
+  margin: 20px 0;
+}
